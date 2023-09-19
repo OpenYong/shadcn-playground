@@ -21,6 +21,8 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
+import { Badge } from "@/components/ui/badge";
+
 export default function Home() {
   return (
     <main className=" min-h-screen  justify-between p-24">
@@ -68,6 +70,9 @@ export default function Home() {
             </SelectGroup>
           </SelectContent>
         </Select>
+      </div>
+      <div>
+        <Badge>Badge</Badge>
       </div>
     </main>
   );
